@@ -10,6 +10,8 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libssh2-1-dev \
   unixodbc-dev \
   libsasl2-dev \
+  libtiff-dev \
+  libjpeg-dev \
   &&  install2.r --error \
 --deps TRUE \
 tidyverse \
